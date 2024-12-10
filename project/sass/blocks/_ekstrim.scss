@@ -1,0 +1,120 @@
+.joytop_ozbekiston-2 {
+  width: 214.4px;
+  height: 36px;
+  top: 8px;
+  left: 8px;
+  gap: 0px;
+  border-radius: 6px;
+  border: solid #e5e5ea 1px;
+  color: #444444;
+  opacity: 0px;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  outline: #ff7e46;
+}
+
+.joytop_viloyat-2 {
+  width: 214.4px;
+  height: 36px;
+  top: 8px;
+  left: 232.4px;
+  padding: 7.75px 13px 8.25px 12px;
+  gap: 0px;
+  border-radius: 6px;
+  border: solid #e5e5ea 1px;
+  color: #8e8e93;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  opacity: 0px;
+  outline: #ff7e46;
+}
+
+.joytop_xudud-3 {
+  width: 214.4px;
+  height: 36px;
+  top: 8px;
+  left: 456.8px;
+  padding: 7.75px 13px 8.25px 12px;
+  gap: 0px;
+  border-radius: 6px;
+  border: solid #e5e5ea 1px;
+  opacity: 0.3px;
+  background-color: #f7f7fa;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #8e8e93;
+  outline: #ff7e46;
+}
+
+.joytop_arenda-2 {
+  width: 214.4px;
+  height: 36px;
+  top: 8px;
+  left: 681.2px;
+  padding: 7.75px 13.01px 8.25px 12px;
+  gap: 0px;
+  border-radius: 6px;
+  border: solid #e5e5ea 1px;
+  opacity: 0px;
+  color: #8e8e93;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  outline: #ff7e46;
+}
+
+.joytop-filter_btn-3 {
+  width: 116.41px;
+  height: 35px;
+  top: 8.5px;
+  left: 905.59px;
+  gap: 0px;
+  border-radius: 6px;
+  border: solid #e5e5ea 1px;
+  opacity: 0px;
+  background-color: white;
+  padding-right: 25.67px;
+  color: #444444;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: center;
+}
+
+.joytop-ekstrim_item:hover {
+  max-width: 277px;
+  transition: all 0.2s linear;
+  transform: scale(1.05);
+  box-shadow: 25px 25px 25px 25px #0000000d;
+  .joytop-arenda_linear {
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0) 80%,
+      #ff7e47 80%,
+      #ff7e47 100%
+    );
+  }
+  cursor: pointer;
+}
+
+.joytop-ekstrim_title-st {
+  margin-left: 61px;
+}
+
+.joytop-ekstrim_list {
+  justify-content: center;
+  
+}

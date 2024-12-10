@@ -1,0 +1,1420 @@
+.joytop {
+  padding: 30px 0;
+  box-shadow: 0px 5px 50px 0px #00000008;
+  background-color: white;
+}
+
+.joytop-location-text{
+  cursor: pointer;
+}
+.joytop-text {
+  font-family: Rubik;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 30.81px;
+  text-align: left;
+  color: #444444;
+  margin-bottom: 29px;
+  margin-left: 61px;
+}
+
+.rooms {
+  text-decoration: none;
+}
+
+.joytop_img {
+  margin-right: auto;
+}
+.joytop_traslation-input {
+  color: #8e8e93;
+  font-size: 16px;
+  font-style: normal;
+  width: 70px;
+  height: 36px;
+  padding: 7.75px 13px 8.25px 14px;
+  gap: 0px;
+  border-radius: 6px;
+  border: 1px solid #e5e5ea;
+  opacity: 0px;
+  margin-right: auto;
+}
+.joytop_inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.joytop_menu {
+  list-style: none;
+  display: flex;
+  margin-left: 220px;
+}
+.joytop_link {
+  text-decoration: none;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.86px;
+  text-align: center;
+  color: #ff7e46;
+  background-color: transparent;
+  padding: 4.15px 11.64px 4.99px 12px;
+  border-radius: 6px;
+  border: 2px;
+  opacity: 0px;
+  border: 2px solid #ff7e47;
+  max-width: 127.09px;
+}
+.joytop_link-active {
+  box-shadow: 0px 4px 10px 0px #ff7e4740;
+  background-color: #ff7e46;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19px;
+  text-align: center;
+  color: #fff;
+  margin-right: 21px;
+  padding: 6.75px 14.67px 7.25px 15px;
+}
+.joytop_link-active-2 {
+  margin-right: 21px;
+  margin-left: 5px;
+}
+.joytop_link-active-3 {
+  margin-right: 34px;
+  margin-left: 5px;
+}
+.joytop-place_inner {
+  display: flex;
+  margin-bottom: 24px;
+  margin-top: -20px;
+  justify-content: center;
+}
+.joytop-location_inner {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 95px;
+  gap: 4px;
+  margin-bottom: 25px;
+}
+.joytop-location-text {
+  max-width: 138.57px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: left;
+  color: #ff7e47;
+  margin-right: -45px;
+}
+
+.input {
+  outline: #8e8e93;
+}
+//   ---------------------------------------joytop tugadi-------------------------
+.joytop-find_inner {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  margin-bottom: 48px;
+  justify-content: center;
+  margin-left: -5px;
+}
+
+.joytop_ozbekiston {
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #444444;
+  max-width: 132.57px;
+  border-radius: 6px;
+  border: 1px solid #e5e5ea;
+  opacity: 0px;
+  padding: 8px 33px 8px 12px;
+  outline: #ff7e46;
+}
+.joytop_viloyat {
+  padding: 8px 33px 8px 12px;
+  max-width: 165.38px;
+  gap: 0px;
+  border-radius: 6px;
+  border: 1px solid #e5e5ea;
+  opacity: 0px;
+  color: #444444;
+  outline: #ff7e46;
+}
+.joytop-phone-input {
+  max-width: 180.5px;
+  padding: 8px 12px 8px 12px;
+  gap: 0px;
+  border-radius: 6px;
+  border: 1px solid #e5e5ea;
+  opacity: 0px;
+  outline: #ff7e46;
+  margin-top: 25px;
+}
+.joytop_tuman {
+  max-width: 121.77px;
+  gap: 0px;
+  border-radius: 6px;
+  border: 1px solid #e5e5ea;
+  opacity: 0px;
+  padding: 8px 30px 8px 12px;
+  color: #444444;
+  outline: #ff7e46;
+}
+.joytop_xudud {
+  max-width: 151.76px;
+  padding: 7.75px 13px 8.25px 12px;
+  gap: 0px;
+  border-radius: 6px;
+  border: 1px solid #e5e5ea;
+  opacity: 0px;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #8e8e93;
+  outline: #ff7e46;
+}
+.joytop_arenda {
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #444444;
+  max-width: 120.8px;
+  gap: 0px;
+  border-radius: 6px;
+  border: 1px solid #e5e5ea;
+  opacity: 0px;
+  padding: 8px 45px 8px 12px;
+  outline: #ff7e46;
+}
+.joytop-filter_btn {
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: center;
+  color: #444444;
+  max-width: 83.23px;
+  gap: 0px;
+  border-radius: 6px;
+  border: 1px solid #e5e5ea;
+  opacity: 0px;
+  padding: 8px 23.49px 8px 21px;
+  background-color: transparent;
+  position: relative;
+  &::before {
+    background-image: url("../../../imgs/Vector.svg");
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    top: 7.5px;
+    left: 52.23px;
+    padding: 2.5px 1.67px 2.5px 1.67px;
+    position: absolute;
+    margin-left: 6px;
+    opacity: 0px;
+    content: "";
+  }
+}
+.joytop-search_btn {
+  max-width: 100px;
+  gap: 0px;
+  opacity: 0px;
+  border-radius: 6px;
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 19px;
+  text-align: center;
+  color: white;
+  border: 2px solid #ff7e46;
+  padding: 7.75px 14.34px 8.25px 15.29px;
+  background-color: #ff7e47;
+}
+.joytop-search_btn:hover {
+  background-color: white;
+  color: #ff7e46;
+  border: 2px solid #ff7e46;
+}
+
+// ------------------------------------joytop find tugadi------------------------------
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.tilt-box-wrap-2 {
+  width: 220px;
+  height: 150px;
+  position: relative;
+  transition: all 0.6s ease-out;
+  perspective: 1000px;
+}
+.tilt-box-wrap:hover {
+  transition: all 0.3s linear;
+  transform: scale(1.1);
+}
+.tilt-box {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  text-align: center;
+  color: #fff;
+  font-size: 90px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: all 0.6s ease-out;
+  transform: rotateX(0deg) rotateY(0deg);
+  perspective: 1000px;
+  transform-style: preserve-3d;
+}
+.tilt-box strong {
+  transform: translateZ(40px);
+}
+.t_over {
+  width: 33.333%;
+  height: 33.333%;
+  position: absolute;
+  z-index: 1;
+}
+
+.t_over:nth-child(1) {
+  left: 0;
+  top: 0;
+}
+.t_over:nth-child(2) {
+  left: 33.333%;
+  top: 0;
+}
+.t_over:nth-child(3) {
+  left: 66.666%;
+  top: 0;
+}
+.t_over:nth-child(4) {
+  left: 0;
+  top: 33.333%;
+}
+.t_over:nth-child(5) {
+  left: 33.333%;
+  top: 33.333%;
+}
+.t_over:nth-child(6) {
+  left: 66.666%;
+  top: 33.333%;
+}
+.t_over:nth-child(7) {
+  left: 0;
+  top: 66.666%;
+}
+.t_over:nth-child(8) {
+  left: 33.333%;
+  top: 66.666%;
+}
+.t_over:nth-child(9) {
+  left: 66.666%;
+  top: 66.666%;
+}
+.t_over:nth-child(1):hover ~ .tilt-box {
+  transform: rotateX(-20deg) rotateY(20deg);
+}
+.t_over:nth-child(2):hover ~ .tilt-box {
+  transform: rotateX(-20deg) rotateY(0deg);
+}
+.t_over:nth-child(3):hover ~ .tilt-box {
+  transform: rotateX(-20deg) rotateY(-20deg);
+}
+.t_over:nth-child(4):hover ~ .tilt-box {
+  transform: rotateX(0deg) rotateY(20deg);
+}
+.t_over:nth-child(5):hover ~ .tilt-box {
+  transform: rotateX(0deg) rotateY(0deg);
+}
+.t_over:nth-child(6):hover ~ .tilt-box {
+  transform: rotateX(0deg) rotateY(-20deg);
+}
+.t_over:nth-child(7):hover ~ .tilt-box {
+  transform: rotateX(20deg) rotateY(20deg);
+}
+.t_over:nth-child(8):hover ~ .tilt-box {
+  transform: rotateX(20deg) rotateY(0deg);
+}
+.t_over:nth-child(9):hover ~ .tilt-box {
+  transform: rotateX(20deg) rotateY(-20deg);
+}
+
+.ota {
+  display: flex;
+  justify-content: center;
+  margin-top: -30px;
+  gap: 5px;
+}
+
+// ------------------------------------joytop find tugadi------------------------------
+// ------------------------------------joytop find tugadi------------------------------
+.joytop-arenda_list {
+  list-style: none;
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.joytop-arenda_item:hover {
+  max-width: 277px;
+  transition: all 0.2s linear;
+  transform: scale(1.05);
+  box-shadow: 25px 25px 25px 25px #0000000d;
+  .joytop-arenda_linear {
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0) 80%,
+      #ff7e47 80%,
+      #ff7e47 100%
+    );
+  }
+}
+
+.joytop-arenda_list-active {
+  margin-bottom: 100px;
+}
+.joytop-arenda_item {
+  max-width: 277px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  box-shadow: 0px 2px 25px 0px #0000000d;
+  background-color: #ffffff;
+  padding: 15px 15px 1px 15px;
+  cursor: pointer;
+}
+.joytop-arenda_img {
+  background-image: url("../../../imgs/0a9cfa6b-04b2-4bd5-8772-4efb0223ccc6.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-2 {
+  background-image: url("../../../imgs/2.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-3 {
+  background-image: url("../../../imgs/3.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-4 {
+  background-image: url("../../../imgs/4.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-5 {
+  background-image: url("../../../imgs/5.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-6 {
+  background-image: url("../../../imgs/6.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-7 {
+  background-image: url("../../../imgs/7.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-8 {
+  background-image: url("../../../imgs/8.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-9 {
+  background-image: url("../../../imgs/9.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-10 {
+  background-image: url("../../../imgs/10.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-11 {
+  background-image: url("../../../imgs/11.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-12 {
+  background-image: url("../../../imgs/12.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-13 {
+  background-image: url("../../../imgs/13.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-14 {
+  background-image: url("../../../imgs/14.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-15 {
+  background-image: url("../../../imgs/15.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-16 {
+  background-image: url("../../../imgs/16.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-17 {
+  background-image: url("../../../imgs/17.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-18 {
+  background-image: url("../../../imgs/18.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-19 {
+  background-image: url("../../../imgs/19.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-20 {
+  background-image: url("../../../imgs/20.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-21 {
+  background-image: url("../../../imgs/21.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-22 {
+  background-image: url("../../../imgs/22.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-23 {
+  background-image: url("../../../imgs/23.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-24 {
+  background-image: url("../../../imgs/24.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-25 {
+  background-image: url("../../../imgs/25.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-26 {
+  background-image: url("../../../imgs/26.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-27 {
+  background-image: url("../../../imgs/27.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-28 {
+  background-image: url("../../../imgs/28.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-29 {
+  background-image: url("../../../imgs/29.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-30 {
+  background-image: url("../../../imgs/30.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-31 {
+  background-image: url("../../../imgs/31.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-32 {
+  background-image: url("../../../imgs/32.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-33 {
+  background-image: url("../../../imgs/33.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-34 {
+  background-image: url("../../../imgs/34.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-35 {
+  background-image: url("./images/dacha\ super\ narx\ thirty\ five.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-36 {
+  background-image: url("./images/dacha\ super\ narx\ thirty\ six.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-37 {
+  background-image: url("./images/dacha\ super\ narx\ thity\ seven.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-38 {
+  background-image: url("./images/dacha\ super\ each.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-39 {
+  background-image: url("./images/dacha\ super\ narx\ thirty\ nine.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-40 {
+  background-image: url("./images/dacha\ super\ narx\ fourty.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+
+.joytop-arenda_img-41 {
+  background-image: url("./images/dacha\ super\ narx\ fourty\ one.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+
+.joytop-arenda_img-42 {
+  background-image: url("./images/dacha\ super\ narx\ fourty\ two.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+
+.joytop-arenda_img-43 {
+  background-image: url("./images/dacha\ \ sper\ narx\ fourty\ three.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-44 {
+  background-image: url("./images/dacha\ super\ narx\ fourty\ four.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+
+.joytop-arenda_img-45 {
+  background-image: url("./images/dacha\ super\ narx\ fourty\ five.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+
+.joytop-arenda_img-46 {
+  background-image: url("./images/dacha\ super\ narx\ fourty\ six.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+
+.joytop-arenda_img-47 {
+  background-image: url("./images/dacha\ super\ narx\ fourty\ seven.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+
+.joytop-arenda_img-48 {
+  background-image: url("./images/dacha\ super\ narx\ fourty\ each.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+
+.joytop-arenda_img-49 {
+  background-image: url("./images/dacha\ super\ narx\ fourty\ nine.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+
+.joytop-arenda_img-50 {
+  background-image: url("./images/dcha\ super\ narx\ fiverty.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-51 {
+  background-image: url("./images/");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+
+.joytop-arenda_img-52 {
+  background-image: url("./images/dacha\ super\ narx\ fiverty\ two.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+
+.joytop-arenda_img-53 {
+  background-image: url("./images/dacha\ super\ narx\ fiverty\ three.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+
+.joytop-arenda_img-54 {
+  background-image: url("./images/dacha\ super\ narx\ fiverty\ four.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-55 {
+  background-image: url("./images/dacha\ super\ narx\ fiverty\ five.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-56 {
+  background-image: url("./images/dacha\ super\ narx\ fiverty\ six.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-57 {
+  background-image: url("./images/dacha\ super\ narx\ fiverty\ seven.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-58 {
+  background-image: url("./images/dacha\ super\ narx\ fiverty\ each.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-59 {
+  background-image: url("./images/dacha\ super\ narx\ fiverty\ nine.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-60 {
+  background-image: url("./images/dacha\ super\ narx\ sixty.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-61 {
+  background-image: url("./images/dacha\ super\ narx\ sixty\ one.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-62 {
+  background-image: url("./images/dacha\ super\ narx\ sixty\ two.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-63 {
+  background-image: url("./images/dacha\ super\ narx\ sixty\ three.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-64 {
+  background-image: url("./images/dacha\ super\ narx\ sixty\ four.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-65 {
+  background-image: url("./images/dacha\ super\ narx\ sixty\ five.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-66 {
+  background-image: url("./images/dacha\ super\ narx\ sixty\ six.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-67 {
+  background-image: url("./images/dacha\ super\ narx\ sixty\ seven.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-68 {
+  background-image: url("./images/dacha\ super\ narx\ sixty\ each1.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-69 {
+  background-image: url("./images/dacha\ super\ narx\ seventy\ two.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-70 {
+  background-image: url("./images/dacha\ super\ narx\ seventy\ three.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_img-71 {
+  background-image: url("./images/dacha\ super\ narx\ seventy\ four.png");
+  background-repeat: no-repeat;
+  max-width: 247px;
+  height: 160px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  margin-bottom: 18px;
+}
+.joytop-arenda_text {
+  max-width: 105.7px;
+  padding: 0.75px 4.65px 1.25px 5px;
+  gap: 0px;
+  border-radius: 3px;
+  opacity: 0px;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #ff0000;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.joytop-arenda_subtext {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: #575757;
+  margin-bottom: 9px;
+}
+.joytop-arenda_position {
+  position: relative;
+}
+.joytop-arenda_subtext-active {
+  position: absolute;
+  right: 14.62px;
+  top: -20px;
+}
+.joytop-arenda_subtext-focus {
+  margin-bottom: 8px;
+}
+.joytop-arenda-loc_inner {
+  display: flex;
+  margin-bottom: 23px;
+  gap: 11px;
+  align-items: center;
+}
+.joytop-arenda-loc_text {
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #ff7e47;
+}
+.joytop-arenda-bed_inner {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+.joytop-arenda-bed_inner-active {
+  margin-bottom: 22px;
+}
+.joytop-arenda_subtext-2 {
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  color: #575757;
+  margin-bottom: 8px;
+}
+.joytop-arenda_subtext-small {
+  font-family: Rubik;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: left;
+  color: #575757;
+}
+.joytop-arenda_linear {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0) 80%,
+    white 100%,
+    white 100%
+  );
+  width: 277px;
+  height: 30px;
+  border-radius: 6px;
+  opacity: 0px;
+  position: relative;
+  left: -16px;
+  top: 0;
+}
+.joytop-arenda_linear_text {
+  font-family: Rubik;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17.14px;
+  text-align: left;
+  color: #575757;
+  position: absolute;
+  left: 15px;
+}
+.joytop-arenda_text-active {
+  background-color: #ffa500;
+}
+
+.joytop-arenda_text-one {
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #ffffff;
+  position: absolute;
+  right: 110px;
+  top: 2px;
+}
+.joytop-arenda_text-four {
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #ffffff;
+  position: absolute;
+  right: 4.5px;
+  top: 2px;
+}
+.joytop-arenda_text-two {
+  position: absolute;
+  right: 110px;
+}
+.joytop-arenda_text-vip {
+  background-color: #008000;
+  color: #ffffff;
+}
+.joytop-arenda_subtext-2-acctive {
+  margin-bottom: 80px;
+}
+.joytop-arenda_subtext-2-focus {
+  margin-bottom: 36px;
+}
+.joytop_btn {
+  width: 239.16px;
+  padding: 9.75px 62.2px 10.25px 62.58px;
+  border-radius: 6px;
+  border: 2px solid #dadada;
+  opacity: 0px;
+  font-family: Rubik;
+  background-color: transparent;
+  margin-bottom: 20px;
+  margin-top: 101px;
+  color: #575757;
+  cursor: not-allowed;
+}
+
+.joytop_btn:hover {
+  border: 2px solid #ff7e47;
+}
+
+.joytop_btn-inner {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+// -------------------------------Section tugadii----------------------------
+.footer {
+  width: 100%;
+  background-color: #ff7e47;
+  padding: 39px 0px 12.35px 0px;
+  height: 300px;
+  overflow-y: hidden;
+}
+.footer_img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  text-decoration: none;
+}
+.footer_link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.footer_sublink {
+  text-decoration: none;
+}
+.footer_text {
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.86px;
+  text-align: left;
+  color: #ffffff;
+  position: relative;
+  top: -20px;
+}
+.footer_subtext {
+  max-width: 152.58px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22.86px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.footer_text-2 {
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22.86px;
+  text-align: left;
+  text-align: left;
+  color: #ffffff;
+  position: relative;
+  top: -20px;
+  right: -5px;
+}

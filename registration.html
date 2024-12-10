@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+    <link rel="stylesheet" href="./project/sass/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAALVBMVEVHcEz/fkf/fkf/fkf/fkf/fkf/fkf/fkf/fUb/fkf/fkf/fkf/fkf/fkf/fkcebPVJAAAAD3RSTlMAyabi1P+67wwbV0ItiG+OQpk0AAAAwElEQVR4AayMIRABYRCF3x3AXFDIyvUretLN8MFRb1TlhmQUXbkZfUa/cl1PimoEvUf/zj968ZW3b9/b1V8Jel7DRMZ45m08laMGicKemnCQ2jmgbKY+LE4qgDSApAKWyoBy5JIIWCuGTQtLCjfpCVcW+T534so3W+/CU2WliRruyNlLZS+GCuzlfDsYQ1ovFXWx9H4D3pJMfZmVpDNw/Lxi4CGpw4+5jAI8Q8nIvEvlib4D82MRAbI2UegOxaEKAFIlRiqAT83CAAAAAElFTkSuQmCC"
+    />
+  </head>
+  <body>
+    <header class="joytop">
+      <div class="container">
+        <div class="joytop_inner">
+          <a href="./project/index.html" class="joytop_img">
+            <img src="../imgs/logo.e6fa5e4a.svg fill.svg" alt="Joytop logo" />
+          </a>
+          <nav class="joytop_nav">
+            <ul class="joytop_menu">
+              <li class="joytom_item">
+                <a class="joytop_link" href="">Maqolalar</a>
+              </li>
+              <li class="joytom_item">
+                <a class="joytop_link joytop_link-active-2" href="../info.html"
+                  >Biz haqimizda</a
+                >
+              </li>
+              <li class="joytom_item">
+                <a class="joytop_link joytop_link-active" href=""
+                  >Joy Qo'shish</a
+                >
+              </li>
+              <li class="joytom_item">
+                <a
+                  class="joytop_link joytop_link-active-2"
+                  href="../sing-up.html"
+                  >Kirish</a
+                >
+              </li>
+              <li class="joytom_item">
+                <a
+                  class="joytop_link joytop_link-active-2"
+                  href="./registration.html"
+                  >Ro'yxatdan o'tish</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <a href="" class="joytop_traslation">
+            <select class="input">
+              <option c value="">uz</option>
+              <option value="">ru</option>
+              <option value="">en</option>
+            </select>
+          </a>
+        </div>
+      </div>
+    </header>
+    <main class="sing_up-main">
+      <section class="sing_up-section">
+        <form class="form" action="https://echo.htmlacademy.ru" method="POST">
+          <label for="user_name" class="sing_up-label"
+            >Nomi</label
+          >
+          <input
+            placeholder="Ism"
+            id="user_name"
+            required
+            name="user_name"
+            type="text"
+            class="sing_up-name"
+          />
+          <label class="sing_up-label" for="user_firstname"
+            >Familya</label
+          >
+          <input
+            placeholder="Familya"
+            id="user_firstname"
+            type="text"
+            name="user_surname"
+            required
+            class="sing_up-name sing_up-firstname"
+          />
+          <label for="user_tel" class="sing_up-label"
+            >Raqamingizni kiriting</label
+          >
+          <div class="sing_up-tel-container">
+            <div class="sing_up-tel_text-container">
+              <p class="sing_up-tel_text">+998</p>
+            </div>
+            <input
+              placeholder="Raqamingizni kiriting"
+              id="user_tel"
+              type="tel"
+              name="user_tel"
+              class="sing_up-tel"
+              required
+              pattern="[0-9]*"
+              maxlength="9"
+            />
+          </div>
+
+          <label for="password" class="sing_up-label">Parolni tanlang</label>
+          <div class="sing_up-input-container">
+            <input
+              placeholder="Parolni tanlang"
+              id="password"
+              type="password"
+              name="password"
+              class="sing_up-password"
+              required
+            />
+
+            <div class="sing_up-password_img-container">
+              <img onclick="show()" id="eye-img" src="./eye-close.png" alt="" />
+            </div>
+          </div>
+          <label for="confirm_password" class="sing_up-label"
+            >Parolni tasdiqlash</label
+          >
+          <div class="sing_up-input-container">
+            <input
+              placeholder="Parolni tasdiqlash"
+              type="password"
+              name="confirm_password"
+              class="sing_up-password sing_up-password-more"
+              required
+              id="confirm_password"
+              onchange="validatePassword()"
+            />
+            <div class="sing_up-password_img-container">
+              <img
+                onclick="showMore()"
+                id="eye-img-more"
+                src="./eye-close.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <span
+            id="password_error"
+            style="color: red; margin-bottom: 20px"
+          ></span>
+          <a href="./project/index.html">
+            <button class="sing_up-btn">Ro'yxatdan o'tish</button>
+          </a>
+        </form>
+      </section>
+    </main>
+    <script>
+      const Form = document.querySelector(".form");
+      const eyeMore = document.getElementById("eye-img-more");
+      const inputMore = document.querySelector(".sing_up-password-more");
+      const inputTel = document.querySelector(".sing_up-tel");
+      const input = document.querySelector(".sing_up-password");
+      const eye = document.getElementById("eye-img");
+      function show() {
+        if (input.type == "password") {
+          input.type = "text";
+          eye.src = "./eye-open.png";
+        } else {
+          input.type = "password";
+          eye.src = "./eye-close.png";
+        }
+      }
+      function showMore() {
+        if (inputMore.type == "password") {
+          inputMore.type = "text";
+          eyeMore.src = "./eye-open.png";
+        } else {
+          inputMore.type = "password";
+          eyeMore.src = "./eye-close.png";
+        }
+      }
+      function validatePassword() {
+        var password = document.getElementById("password");
+        var confirm_password = document.getElementById("confirm_password");
+        var password_error = document.getElementById("password_error");
+
+        if (password.value != confirm_password.value) {
+          password_error.textContent = "Parol mos kelmaydi iltimos qaytadan kiriting!";
+          confirm_password.setCustomValidity("Passwords don't match");
+        } else {
+          password_error.textContent = "";
+          confirm_password.setCustomValidity("");
+        }
+      }
+    </script>
+    <footer class="footer-2">
+      <div class="container">
+        <a class="footer_img" href="#">
+          <img src="./imgs/footerimg.bf623880.svg.svg" alt="Joytop Logo" />
+          <p class="footer_subtext">JOYTOP.UZ © 2024</p>
+        </a>
+        <a href="https://dasturjon.uz/" class="footer_link">
+          <p class="footer_text">Разработка сайта</p>
+          <p class="footer_text">Brain Development</p>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
